@@ -1,0 +1,49 @@
+<html>
+<head>
+	<title> MATH QUIZ </title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+
+<script src="quiz1.js"></script>
+<body class="body_background"></body>
+</head>
+<body>
+<center>
+	<h1> MATH QUIZ </h1>
+	<br>
+	<div class="col-lg-4 col-sm-8 col-xs-11 login_div1">
+		<h3> Login </h3>
+		<div class="line"></div>
+		<br>
+		<br>
+		<label> Username 1 : </label>
+		<input type="text" id="username_input1" class="form-control" placeholder="Username1">
+		<br>
+		<label> Password 1 : </label>
+		<input type="text" id="password_input1" class="form-control" placeholder="Password1">
+		<br>
+		<label> Username 2 : </label>
+			<input type="text" id="username_input2" class="form-control" placeholder="Username2">
+			<br>
+			<label> Password 2 : </label>
+			<input type="text" id="password_input2" class="form-control" placeholder="Password2">
+			<br>
+			<button class="btn btn-primary" onclick="addUser()" style="width: 300px"> Login </button>
+			<br>
+			<br>
+			<button class="btn btn-info" onclick="save_Username_And_Password()" style="width: 300px"> Save Username and Password </button>
+			<br>
+			<br>
+			<button class="btn btn-success" onclick="change_Username_And_Password()" style="width: 300px"> Change Username and Password </button>
+			<br>
+			<br>
+			<button id="Forgot_Username_and_Password" onclick="Forgot_Username_and_Password()"> Forgot Username and Password? </button>
+			</div>
+		</center>
+</body>
+</html>

@@ -1,0 +1,55 @@
+.body_background 
+{
+    background-image: url("math.jpg");
+    background-position: center;
+    background-size: cover;
+}
+body
+{
+    text-align: center;
+}
+	.login_div1 , .password_div1
+	{
+		background: white;
+		padding: 10px;
+		float: none;
+		border-radius: 15px;
+	}
+
+
+#player_name , #player2_name
+{
+	display: inline-block;
+	margin-left: 20px;
+}
+#word
+{
+	width: 60%;
+}
+#word_display
+{
+	letter-spacing: 5px;
+}
+#output
+{
+background: white;
+border-radius: 10px;
+border-top: 10px solid #AA4465;
+padding: 10px;
+float: none;
+text-align: left;
+}
+.line
+{
+    height: 6px;
+    background-color: #000;
+    width: 70px;
+	margin: 8px auto;
+}
+#Forgot_Username_and_Password
+{
+	color: #0099ff;
+	background-color: white;
+	border-width: 1px;
+	border-color: white;
+}
